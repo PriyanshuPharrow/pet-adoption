@@ -62,12 +62,12 @@ body {
   text-decoration: none;
   padding: 13px 25px;
   border-radius: 1000px;
-  transition: background-color .3s ease-out, border .3s ease-out, color .3s ease-out;
+  transition: background-color 0.3s ease-out, border 0.3s ease-out, color 0.3s ease-out;
 }
 
 .our-btn:hover {
-  background-color: #2E40E2;
-  border: 2px solid #2E40E2;
+  background-color: #2e40e2;
+  border: 2px solid #2e40e2;
 }
 
 .our-btn--outline {
@@ -176,6 +176,17 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.15rem;
   color: #9f9f9f;
+  cursor: pointer;
+}
+
+.pet-filter button:hover {
+  color: #7d7d7d;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+  color: #475aff;
+  text-decoration: underline;
 }
 
 .site-footer {
@@ -230,7 +241,7 @@ body {
 }
 
 .pet-description {
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin: 0 0 1rem 0;
   color: #626262;
   line-height: 150%;
@@ -246,11 +257,11 @@ body {
   .pet-description {
     font-size: 1rem;
   }
-  
+
   .pet-card-text {
     padding: 21px 29px;
   }
-  
+
   .list-of-pets {
     row-gap: 28px;
   }
